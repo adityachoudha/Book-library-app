@@ -1,0 +1,29 @@
+.book{
+    height:55vh;
+    width:230px;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    margin: 5px;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+}
+
+.book p{
+    margin: 0 5px;
+}
+.book img{
+    width:200px;
+    height:250px;
+    margin: auto;
+}
+
+@media  only screen and (max-width: 1000px){
+    .book img{
+        width:100px;
+        height:130px;
+    }
+    .book{
+        height:30vh;
+    }
+}
